@@ -15,7 +15,7 @@ const ffmpeg = process.env.FFMPEG || 'ffmpeg';
 const ffprobe = process.env.FFPROBE || 'ffprobe';
 const { chromium } = require(PLAYWRIGHT);
 const screenshots = join(ROOT, 'docs', 'images');
-const output = join(ROOT, 'media', 'folio-demo.mp4');
+const output = resolve(process.env.FOLIO_VIDEO_OUTPUT || join(ROOT, '..', 'folio-demo.mp4'));
 const scriptPath = join(ROOT, 'docs', 'VIDEO_SCRIPT.md');
 const narration = readFileSync(scriptPath, 'utf8')
   .split('\n')
@@ -36,7 +36,7 @@ if (sceneStarts.length !== 6 || sceneEnds.length !== 6 || sceneStarts.some((x, i
 
 const work = mkdtempSync(join(tmpdir(), 'folio-human-demo-'));
 mkdirSync(screenshots, { recursive: true });
-mkdirSync(join(ROOT, 'media'), { recursive: true });
+mkdirSync(resolve(output, '..'), { recursive: true });
 const videoDir = join(work, 'recorded');
 mkdirSync(videoDir);
 

@@ -96,7 +96,6 @@ docs/DEMO_SCRIPT.md      Four-minute judges' walkthrough
 docs/VIDEO_SCRIPT.md     Narration for the product demo video
 docs/VIDEO_CAPTIONS.srt  Subtitle sidecar for the demo video
 presentation/            PowerPoint deck
-media/                   Human-narrated product screen capture
 tools/                    Product demo capture script
 samples/generated/       Included fictional PDFs used by the demo
 samples/dossiers/        Included Markdown dossier and structured JSON example
@@ -114,15 +113,15 @@ run.sh                   One-command local launcher
 
 The UI proxies `/api` to `localhost:8080` in local development. Investigation lookup state is in memory and clears on backend restart; original files, dossier and JSONL event are written under `backend/data` by default. Remove that directory to delete locally stored cases.
 
-## Deck and demonstration video
+## Presentation and demo video
 
 - [PowerPoint deck](presentation/Folio-Document-Forensics.pptx) — 10 slides in 16:9, styled with the Refero Anthropic visual direction and without the Gamma badge.
-- [Product demo video](media/folio-demo.mp4) — human-narrated screen capture of the running app, covering the synthetic investigation, discrepancy review, source trace and human-review limits. Optional subtitle file: [docs/VIDEO_CAPTIONS.srt](docs/VIDEO_CAPTIONS.srt).
-- [Voiceover script](docs/VIDEO_SCRIPT.md) and [capture script](tools/capture_demo.mjs). To record again, start the app with `./run.sh`, then run `FOLIO_VOICE_AUDIO=/path/to/voice.m4a FOLIO_DEMO_URL=http://127.0.0.1:5173/ node tools/capture_demo.mjs`. The capture script needs Playwright, Chrome and FFmpeg.
+- The human-narrated demo is delivered separately as `folio-demo.mp4`; it is intentionally excluded from this public repository and the submission ZIP. It demonstrates the synthetic investigation, discrepancy review, source trace and human-review limits. Captions: [docs/VIDEO_CAPTIONS.srt](docs/VIDEO_CAPTIONS.srt).
+- [Voiceover script](docs/VIDEO_SCRIPT.md) and [capture script](tools/capture_demo.mjs). To record again, start the app with `./run.sh`, then run `FOLIO_VOICE_AUDIO=/path/to/voice.mp3 FOLIO_DEMO_URL=http://127.0.0.1:5173/ node tools/capture_demo.mjs`. By default, the capture script saves `folio-demo.mp4` beside the project folder; set `FOLIO_VIDEO_OUTPUT=/path/to/output.mp4` to choose another location. The capture script needs Playwright, Chrome and FFmpeg.
 
 ## Submission deliverables
 
-- **Download the packaged submission:** [folio-forensics-submission.zip](folio-forensics-submission.zip), containing the source, documentation, screenshots, deck, sample data and demo video.
+- **Download the packaged submission:** [folio-forensics-submission.zip](folio-forensics-submission.zip), containing the source, documentation, screenshots, deck and sample data. The demo video is supplied separately and is not part of this ZIP or the public repository.
 - **Working prototype:** run locally using `./run.sh`; no hosted service or API key required.
 - **Architecture overview:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), including Mermaid data-flow diagram.
 - **Sample dossier:** `samples/dossiers/sample-investigation.md` and `.json`, generated from the included synthetic PDFs using the same analysis pipeline. The live demo regenerates the PDFs and runs the identical pipeline.
