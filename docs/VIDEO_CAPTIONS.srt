@@ -1,0 +1,23 @@
+1
+00:00:01,500 --> 00:00:06,814
+Folio helps reviewers compare related documents and follow every signal back to its source.
+
+2
+00:00:07,264 --> 00:00:15,361
+The demo uses three fictional PDFs. Folio extracts supported fields, records hashes, and compares the values.
+
+3
+00:00:15,811 --> 00:00:21,543
+Two declarations of annual income differ, so the app raises a review signal with linked evidence.
+
+4
+00:00:21,993 --> 00:00:27,337
+Select the income proof to inspect extracted lines alongside the original PDF page.
+
+5
+00:00:27,787 --> 00:00:34,777
+Export the dossier with findings, hashes, evidence references, and limitations in one reviewable file.
+
+6
+00:00:35,227 --> 00:00:40,957
+These explainable checks are prompts for human review; they do not determine authenticity or fraud.

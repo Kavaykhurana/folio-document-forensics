@@ -7,6 +7,22 @@ Folio turns a group of submitted documents into a structured, reviewable case fi
 
 > **Important:** Folio is a prototype. It reports review signals, not verified facts or fraud conclusions. A human must examine originals and verify consequential information with authoritative sources.
 
+## Product screenshots
+
+Screenshots below show Folio running the included synthetic case. All names, identifiers and document values are fictional.
+
+### Workspace
+
+![Folio workspace before running an investigation](docs/images/folio-workspace.png)
+
+### Investigation overview
+
+![Extracted fields, document list and review signals](docs/images/folio-investigation.png)
+
+### Evidence trace
+
+![Income proof source lines beside its original PDF](docs/images/folio-source-trace.png)
+
 ## Run it
 
 ### Easiest: one command
@@ -75,11 +91,13 @@ frontend/                React + Vite + Tailwind review workspace
 docs/ARCHITECTURE.md     Architecture diagram and data flow
 docs/TECHNICAL.md        Technology and methodology notes
 docs/LIMITATIONS.md      Implemented, partial and unsupported capabilities
+docs/images/             Real product screenshots used in this README
 docs/DEMO_SCRIPT.md      Four-minute judges' walkthrough
-docs/VIDEO_SCRIPT.md     Narration for the exported walkthrough
+docs/VIDEO_SCRIPT.md     Narration for the product demo video
+docs/VIDEO_CAPTIONS.srt  Subtitle sidecar for the demo video
 presentation/            PowerPoint deck
-media/                   Narrated MP4 walkthrough
-tools/                    Video re-render script
+media/                   Narrated product screen capture
+tools/                    Product demo capture script
 samples/generated/       Included fictional PDFs used by the demo
 samples/dossiers/        Included Markdown dossier and structured JSON example
 run.sh                   One-command local launcher
@@ -98,13 +116,13 @@ The UI proxies `/api` to `localhost:8080` in local development. Investigation lo
 
 ## Deck and demonstration video
 
-- [PowerPoint deck](presentation/Folio-Document-Forensics.pptx) — 10 slides in 16:9, styled with the Refero Anthropic visual direction.
-- [Narrated walkthrough video](media/folio-demo.mp4) — 79-second narrated deck-based project walkthrough. The video is an explanatory slideshow, not a live screen recording of the app.
-- [Video narration script](docs/VIDEO_SCRIPT.md) and [re-render script](tools/render_demo_video.py).
-- Gamma presentation: [open the editable deck](https://gamma.app/docs/0xnlhh3kj81kumd?source=mcp&client=chatgpt).
+- [PowerPoint deck](presentation/Folio-Document-Forensics.pptx) — 10 slides in 16:9, styled with the Refero Anthropic visual direction and without the Gamma badge.
+- [Product demo video](media/folio-demo.mp4) — narrated screen capture of the running app, covering the synthetic investigation, discrepancy review, source trace and human-review limits. Optional subtitle file: [docs/VIDEO_CAPTIONS.srt](docs/VIDEO_CAPTIONS.srt).
+- [Video narration script](docs/VIDEO_SCRIPT.md) and [capture script](tools/capture_demo.mjs). To record again, start the app with `./run.sh`, then run `FOLIO_DEMO_URL=http://127.0.0.1:5173/ node tools/capture_demo.mjs`. The capture script needs Playwright, Chrome, FFmpeg and macOS `say`.
 
 ## Submission deliverables
 
+- **Download the packaged submission:** [folio-forensics-submission.zip](folio-forensics-submission.zip), containing the source, documentation, screenshots, deck, sample data and demo video.
 - **Working prototype:** run locally using `./run.sh`; no hosted service or API key required.
 - **Architecture overview:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), including Mermaid data-flow diagram.
 - **Sample dossier:** `samples/dossiers/sample-investigation.md` and `.json`, generated from the included synthetic PDFs using the same analysis pipeline. The live demo regenerates the PDFs and runs the identical pipeline.
