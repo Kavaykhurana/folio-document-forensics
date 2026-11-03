@@ -96,7 +96,7 @@ docs/DEMO_SCRIPT.md      Four-minute judges' walkthrough
 docs/VIDEO_SCRIPT.md     Narration for the product demo video
 docs/VIDEO_CAPTIONS.srt  Subtitle sidecar for the demo video
 presentation/            PowerPoint deck
-media/                   Narrated product screen capture
+media/                   Human-narrated product screen capture
 tools/                    Product demo capture script
 samples/generated/       Included fictional PDFs used by the demo
 samples/dossiers/        Included Markdown dossier and structured JSON example
@@ -117,8 +117,8 @@ The UI proxies `/api` to `localhost:8080` in local development. Investigation lo
 ## Deck and demonstration video
 
 - [PowerPoint deck](presentation/Folio-Document-Forensics.pptx) — 10 slides in 16:9, styled with the Refero Anthropic visual direction and without the Gamma badge.
-- [Product demo video](media/folio-demo.mp4) — narrated screen capture of the running app, covering the synthetic investigation, discrepancy review, source trace and human-review limits. Optional subtitle file: [docs/VIDEO_CAPTIONS.srt](docs/VIDEO_CAPTIONS.srt).
-- [Video narration script](docs/VIDEO_SCRIPT.md) and [capture script](tools/capture_demo.mjs). To record again, start the app with `./run.sh`, then run `FOLIO_DEMO_URL=http://127.0.0.1:5173/ node tools/capture_demo.mjs`. The capture script needs Playwright, Chrome, FFmpeg and macOS `say`.
+- [Product demo video](media/folio-demo.mp4) — human-narrated screen capture of the running app, covering the synthetic investigation, discrepancy review, source trace and human-review limits. Optional subtitle file: [docs/VIDEO_CAPTIONS.srt](docs/VIDEO_CAPTIONS.srt).
+- [Voiceover script](docs/VIDEO_SCRIPT.md) and [capture script](tools/capture_demo.mjs). To record again, start the app with `./run.sh`, then run `FOLIO_VOICE_AUDIO=/path/to/voice.m4a FOLIO_DEMO_URL=http://127.0.0.1:5173/ node tools/capture_demo.mjs`. The capture script needs Playwright, Chrome and FFmpeg.
 
 ## Submission deliverables
 
