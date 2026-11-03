@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#141413;background:#f0eee6}*{box-sizing:border-box}body{margin:0;min-width:320px}a{color:inherit;text-decoration:underline;text-underline-offset:3px}button,select{color:inherit}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #141413;outline-offset:3px}.primary-button{border:0;border-radius:0 0 8px 8px;background:#d97757;color:#fff;transition:background .15s ease}.primary-button:hover:not(:disabled){background:#c6613f}.outline-button{border:1px solid #87867f;border-radius:12px;background:transparent}.outline-button:hover{background:#e3dacc}::selection{background:#f5e3c7;color:#141413}

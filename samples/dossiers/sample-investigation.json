@@ -1,0 +1,436 @@
+{
+  "id" : "7beaecc3-0326-4e10-8540-f9fb55c22ef6",
+  "createdAt" : 1793707462.476174000,
+  "status" : "complete",
+  "documents" : [ {
+    "id" : "dc74fc55-28c4-4937-9a55-9f831b3c21be",
+    "fileName" : "01_application.pdf",
+    "documentType" : "Application form",
+    "source" : "local upload",
+    "sha256" : "40bac9e0aa0a841796e592bf3107ce4173c1a1c4315fd2d1394642a416b598e4",
+    "processingStatus" : "processed",
+    "pageCount" : 1,
+    "extractionMethod" : "PDF text layer",
+    "fields" : {
+      "applicant_name" : {
+        "value" : "Asha Mehta",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-6f76e0c8", "E-b66a469d" ]
+      },
+      "date_of_birth" : {
+        "value" : "14 February 1992",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-e9536cd3" ]
+      },
+      "national_id" : {
+        "value" : "DEMO 4821 6703",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-16443735" ]
+      },
+      "address" : {
+        "value" : "18 Sample Lane, Pune, Maharashtra",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-7eb76aaa" ]
+      },
+      "declared_income" : {
+        "value" : "INR 1,200,000 per annum",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-94433064" ]
+      },
+      "document_date" : {
+        "value" : "02 November 2026",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-9fe9508a" ]
+      },
+      "signature" : {
+        "value" : "Signature: Asha Mehta",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-b66a469d" ]
+      }
+    },
+    "evidence" : [ {
+      "id" : "E-0f68d05e",
+      "page" : 1,
+      "line" : 1,
+      "text" : "HACKTHECORE DEMONSTRATION — SYNTHETIC DATA",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 1",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-866e5348",
+      "page" : 1,
+      "line" : 2,
+      "text" : "Document type: Application form",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 2",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-420f5cdf",
+      "page" : 1,
+      "line" : 3,
+      "text" : "Application reference: DEMO-2026-041",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 3",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-6f76e0c8",
+      "page" : 1,
+      "line" : 4,
+      "text" : "Applicant name: Asha Mehta",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 4",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-e9536cd3",
+      "page" : 1,
+      "line" : 5,
+      "text" : "Date of birth: 14 February 1992",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 5",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-16443735",
+      "page" : 1,
+      "line" : 6,
+      "text" : "National ID: DEMO 4821 6703",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 6",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-7eb76aaa",
+      "page" : 1,
+      "line" : 7,
+      "text" : "Address: 18 Sample Lane, Pune, Maharashtra",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 7",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-94433064",
+      "page" : 1,
+      "line" : 8,
+      "text" : "Declared income: INR 1,200,000 per annum",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 8",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-9fe9508a",
+      "page" : 1,
+      "line" : 9,
+      "text" : "Document date: 02 November 2026",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 9",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-b66a469d",
+      "page" : 1,
+      "line" : 10,
+      "text" : "Signature: Asha Mehta",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 10",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-3d93e53f",
+      "page" : 1,
+      "line" : 11,
+      "text" : "All identities and values on this page are fictional.",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 11",
+      "method" : "PDF text layer"
+    } ],
+    "observations" : [ "PDF text positions are not rendered as overlays; the font check is a basic page-level style comparison only." ]
+  }, {
+    "id" : "d6188296-ea1a-4139-b3f5-3404d2506899",
+    "fileName" : "02_identity.pdf",
+    "documentType" : "Identity document",
+    "source" : "local upload",
+    "sha256" : "1b19ead300a0154eb6ddcb01cae745a5e8c90ca81ef33cc5501bd738e5438d23",
+    "processingStatus" : "processed",
+    "pageCount" : 1,
+    "extractionMethod" : "PDF text layer",
+    "fields" : {
+      "applicant_name" : {
+        "value" : "Asha Mehta",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-6031dfab" ]
+      },
+      "date_of_birth" : {
+        "value" : "14 February 1992",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-9e2233c7" ]
+      },
+      "national_id" : {
+        "value" : "DEMO 4821 6703",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-6dea5882" ]
+      },
+      "address" : {
+        "value" : "18 Sample Lane, Pune, Maharashtra",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-86e8c325" ]
+      },
+      "document_date" : {
+        "value" : "12 August 2024",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-920d3bbb" ]
+      }
+    },
+    "evidence" : [ {
+      "id" : "E-fa55cef4",
+      "page" : 1,
+      "line" : 1,
+      "text" : "HACKTHECORE DEMONSTRATION — SYNTHETIC DATA",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 1",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-43996aac",
+      "page" : 1,
+      "line" : 2,
+      "text" : "Document type: Identity document",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 2",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-6031dfab",
+      "page" : 1,
+      "line" : 3,
+      "text" : "Applicant name: Asha Mehta",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 3",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-9e2233c7",
+      "page" : 1,
+      "line" : 4,
+      "text" : "Date of birth: 14 February 1992",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 4",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-6dea5882",
+      "page" : 1,
+      "line" : 5,
+      "text" : "National ID: DEMO 4821 6703",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 5",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-86e8c325",
+      "page" : 1,
+      "line" : 6,
+      "text" : "Address: 18 Sample Lane, Pune, Maharashtra",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 6",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-920d3bbb",
+      "page" : 1,
+      "line" : 7,
+      "text" : "Document date: 12 August 2024",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 7",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-a8b864de",
+      "page" : 1,
+      "line" : 8,
+      "text" : "All identities and values on this page are fictional.",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 8",
+      "method" : "PDF text layer"
+    } ],
+    "observations" : [ "PDF text positions are not rendered as overlays; the font check is a basic page-level style comparison only." ]
+  }, {
+    "id" : "7a2ba006-7ae4-47f7-a099-7a05b3302c60",
+    "fileName" : "03_income_proof_altered.pdf",
+    "documentType" : "Income proof",
+    "source" : "local upload",
+    "sha256" : "98c875f0ff4ce609073fd2eecb2f7f58faea814a2b5a6d04d57213f7ec96563c",
+    "processingStatus" : "processed",
+    "pageCount" : 1,
+    "extractionMethod" : "PDF text layer",
+    "fields" : {
+      "applicant_name" : {
+        "value" : "Asha Mehta",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-4f02511d" ]
+      },
+      "account_number" : {
+        "value" : "DEMO-AC-1938",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-270feb35" ]
+      },
+      "declared_income" : {
+        "value" : "INR 2,100,000 per annum",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-f0b40f75", "E-dfa03217" ]
+      },
+      "document_date" : {
+        "value" : "01 November 2026",
+        "confidence" : 0.94,
+        "evidenceIds" : [ "E-426cec47" ]
+      }
+    },
+    "evidence" : [ {
+      "id" : "E-d2cc2299",
+      "page" : 1,
+      "line" : 1,
+      "text" : "HACKTHECORE DEMONSTRATION — SYNTHETIC DATA",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 1",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-5ade58fa",
+      "page" : 1,
+      "line" : 2,
+      "text" : "Document type: Income proof",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 2",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-4f02511d",
+      "page" : 1,
+      "line" : 3,
+      "text" : "Applicant name: Asha Mehta",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 3",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-270feb35",
+      "page" : 1,
+      "line" : 4,
+      "text" : "Account number: DEMO-AC-1938",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 4",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-f0b40f75",
+      "page" : 1,
+      "line" : 5,
+      "text" : "Declared income: INR 2,100,000 per annum",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 5",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-426cec47",
+      "page" : 1,
+      "line" : 6,
+      "text" : "Document date: 01 November 2026",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 6",
+      "method" : "PDF text layer"
+    }, {
+      "id" : "E-dfa03217",
+      "page" : 1,
+      "line" : 7,
+      "text" : "This synthetic fixture is intentionally altered: the declared income is inconsistent and uses a different font style. It is not a real customer document.",
+      "x" : 0.0,
+      "y" : 0.0,
+      "width" : 0.0,
+      "height" : 0.0,
+      "sourceLocator" : "page 1, line 7",
+      "method" : "PDF text layer"
+    } ],
+    "observations" : [ "Potential visual style outlier at page 1, line 5 (Helvetica-Bold vs predominant Helvetica). This is a visual observation only; formatting differences can be intentional.", "PDF text positions are not rendered as overlays; the font check is a basic page-level style comparison only." ]
+  } ],
+  "findings" : [ {
+    "id" : "F-1",
+    "category" : "cross-document discrepancy",
+    "severity" : "medium",
+    "status" : "requires review",
+    "title" : "Conflicting declared income",
+    "explanation" : "01_application.pdf = “INR 1,200,000 per annum”; 03_income_proof_altered.pdf = “INR 2,100,000 per annum”. The values may reflect a legitimate change, extraction error, or inconsistent source record; verify against authoritative evidence.",
+    "confidence" : 0.78,
+    "documentIds" : [ "dc74fc55-28c4-4937-9a55-9f831b3c21be", "7a2ba006-7ae4-47f7-a099-7a05b3302c60" ],
+    "evidenceIds" : [ "E-94433064", "E-f0b40f75", "E-dfa03217" ],
+    "recommendedAction" : "Compare the original source fields and confirm which record is current."
+  }, {
+    "id" : "F-2",
+    "category" : "visual style observation",
+    "severity" : "low",
+    "status" : "observation",
+    "title" : "Font style differs from page baseline",
+    "explanation" : "Potential visual style outlier at page 1, line 5 (Helvetica-Bold vs predominant Helvetica). This is a visual observation only; formatting differences can be intentional.",
+    "confidence" : 0.72,
+    "documentIds" : [ "7a2ba006-7ae4-47f7-a099-7a05b3302c60" ],
+    "evidenceIds" : [ "E-f0b40f75" ],
+    "recommendedAction" : "Compare this source line with surrounding lines and the issuing template; a style change alone does not establish alteration."
+  } ],
+  "summary" : "2 review item(s) require human examination. Findings are indicators, not a determination of fraud.",
+  "dossierMarkdown" : "# Investigation dossier\n\n**Investigation:** `7beaecc3-0326-4e10-8540-f9fb55c22ef6`  \n**Generated:** 2026-11-03T12:04:22.475619Z  \n**Status:** Complete for automated prototype analysis  \n**Decision boundary:** Findings are indicators for human review. No fraud determination is made.\n\n## 7.1 Document overview\n\n| Document | Type | Source | Status | SHA-256 |\n|---|---|---|---|---|\n| 01_application.pdf | Application form | local upload | processed | `40bac9e0aa0a841796e592bf3107ce4173c1a1c4315fd2d1394642a416b598e4` |\n| 02_identity.pdf | Identity document | local upload | processed | `1b19ead300a0154eb6ddcb01cae745a5e8c90ca81ef33cc5501bd738e5438d23` |\n| 03_income_proof_altered.pdf | Income proof | local upload | processed | `98c875f0ff4ce609073fd2eecb2f7f58faea814a2b5a6d04d57213f7ec96563c` |\n\n## 7.2 Extracted information\n\n### 01_application.pdf\n\n| Field | Value | Confidence | Evidence location |\n|---|---|---:|---|\n| applicant_name | Asha Mehta | 94% | [E-6f76e0c8, E-b66a469d] |\n| date_of_birth | 14 February 1992 | 94% | [E-e9536cd3] |\n| national_id | DEMO 4821 6703 | 94% | [E-16443735] |\n| address | 18 Sample Lane, Pune, Maharashtra | 94% | [E-7eb76aaa] |\n| declared_income | INR 1,200,000 per annum | 94% | [E-94433064] |\n| document_date | 02 November 2026 | 94% | [E-9fe9508a] |\n| signature | Signature: Asha Mehta | 94% | [E-b66a469d] |\n\n### 02_identity.pdf\n\n| Field | Value | Confidence | Evidence location |\n|---|---|---:|---|\n| applicant_name | Asha Mehta | 94% | [E-6031dfab] |\n| date_of_birth | 14 February 1992 | 94% | [E-9e2233c7] |\n| national_id | DEMO 4821 6703 | 94% | [E-6dea5882] |\n| address | 18 Sample Lane, Pune, Maharashtra | 94% | [E-86e8c325] |\n| document_date | 12 August 2024 | 94% | [E-920d3bbb] |\n\n### 03_income_proof_altered.pdf\n\n| Field | Value | Confidence | Evidence location |\n|---|---|---:|---|\n| applicant_name | Asha Mehta | 94% | [E-4f02511d] |\n| account_number | DEMO-AC-1938 | 94% | [E-270feb35] |\n| declared_income | INR 2,100,000 per annum | 94% | [E-f0b40f75, E-dfa03217] |\n| document_date | 01 November 2026 | 94% | [E-426cec47] |\n\n## 7.3 Contextual analysis\n\n- **Conflicting declared income** — 01_application.pdf = “INR 1,200,000 per annum”; 03_income_proof_altered.pdf = “INR 2,100,000 per annum”. The values may reflect a legitimate change, extraction error, or inconsistent source record; verify against authoritative evidence.\n- **Font style differs from page baseline** — Potential visual style outlier at page 1, line 5 (Helvetica-Bold vs predominant Helvetica). This is a visual observation only; formatting differences can be intentional.\n\n## 7.4 Visual forensic findings\n\n- **01_application.pdf** — PDF text layer; 1 page(s). PDF text positions are not rendered as overlays; the font check is a basic page-level style comparison only.\n- **02_identity.pdf** — PDF text layer; 1 page(s). PDF text positions are not rendered as overlays; the font check is a basic page-level style comparison only.\n- **03_income_proof_altered.pdf** — PDF text layer; 1 page(s). Potential visual style outlier at page 1, line 5 (Helvetica-Bold vs predominant Helvetica). This is a visual observation only; formatting differences can be intentional. PDF text positions are not rendered as overlays; the font check is a basic page-level style comparison only.\n\n## 7.5 Evidence and traceability\n\n### 01_application.pdf (`40bac9e0aa0a841796e592bf3107ce4173c1a1c4315fd2d1394642a416b598e4`)\n\n- `E-0f68d05e` — page 1, line 1 — “HACKTHECORE DEMONSTRATION — SYNTHETIC DATA” (PDF text layer)\n- `E-866e5348` — page 1, line 2 — “Document type: Application form” (PDF text layer)\n- `E-420f5cdf` — page 1, line 3 — “Application reference: DEMO-2026-041” (PDF text layer)\n- `E-6f76e0c8` — page 1, line 4 — “Applicant name: Asha Mehta” (PDF text layer)\n- `E-e9536cd3` — page 1, line 5 — “Date of birth: 14 February 1992” (PDF text layer)\n- `E-16443735` — page 1, line 6 — “National ID: DEMO 4821 6703” (PDF text layer)\n- `E-7eb76aaa` — page 1, line 7 — “Address: 18 Sample Lane, Pune, Maharashtra” (PDF text layer)\n- `E-94433064` — page 1, line 8 — “Declared income: INR 1,200,000 per annum” (PDF text layer)\n- `E-9fe9508a` — page 1, line 9 — “Document date: 02 November 2026” (PDF text layer)\n- `E-b66a469d` — page 1, line 10 — “Signature: Asha Mehta” (PDF text layer)\n- `E-3d93e53f` — page 1, line 11 — “All identities and values on this page are fictional.” (PDF text layer)\n\n### 02_identity.pdf (`1b19ead300a0154eb6ddcb01cae745a5e8c90ca81ef33cc5501bd738e5438d23`)\n\n- `E-fa55cef4` — page 1, line 1 — “HACKTHECORE DEMONSTRATION — SYNTHETIC DATA” (PDF text layer)\n- `E-43996aac` — page 1, line 2 — “Document type: Identity document” (PDF text layer)\n- `E-6031dfab` — page 1, line 3 — “Applicant name: Asha Mehta” (PDF text layer)\n- `E-9e2233c7` — page 1, line 4 — “Date of birth: 14 February 1992” (PDF text layer)\n- `E-6dea5882` — page 1, line 5 — “National ID: DEMO 4821 6703” (PDF text layer)\n- `E-86e8c325` — page 1, line 6 — “Address: 18 Sample Lane, Pune, Maharashtra” (PDF text layer)\n- `E-920d3bbb` — page 1, line 7 — “Document date: 12 August 2024” (PDF text layer)\n- `E-a8b864de` — page 1, line 8 — “All identities and values on this page are fictional.” (PDF text layer)\n\n### 03_income_proof_altered.pdf (`98c875f0ff4ce609073fd2eecb2f7f58faea814a2b5a6d04d57213f7ec96563c`)\n\n- `E-d2cc2299` — page 1, line 1 — “HACKTHECORE DEMONSTRATION — SYNTHETIC DATA” (PDF text layer)\n- `E-5ade58fa` — page 1, line 2 — “Document type: Income proof” (PDF text layer)\n- `E-4f02511d` — page 1, line 3 — “Applicant name: Asha Mehta” (PDF text layer)\n- `E-270feb35` — page 1, line 4 — “Account number: DEMO-AC-1938” (PDF text layer)\n- `E-f0b40f75` — page 1, line 5 — “Declared income: INR 2,100,000 per annum” (PDF text layer)\n- `E-426cec47` — page 1, line 6 — “Document date: 01 November 2026” (PDF text layer)\n- `E-dfa03217` — page 1, line 7 — “This synthetic fixture is intentionally altered: the declared income is inconsistent and uses a different font style. It is not a real customer document.” (PDF text layer)\n\n## 7.6 Investigation summary\n\n2 review item(s) require human examination. Findings are indicators, not a determination of fraud.\n\n- **Conflicting declared income (confidence 78%)**: Compare the original source fields and confirm which record is current. Evidence IDs: [E-94433064, E-f0b40f75, E-dfa03217].\n- **Font style differs from page baseline (confidence 72%)**: Compare this source line with surrounding lines and the issuing template; a style change alone does not establish alteration. Evidence IDs: [E-f0b40f75].\n\n### Limitations\n\nRule-based extraction supports a narrow set of English labels. OCR confidence is a recognition score, not truth confidence. PDF text-layer line locations are approximate; OCR image evidence uses normalized page bounding boxes. The prototype does not verify signatures, detect font manipulation reliably, or determine authenticity. Human review is required.\n\n### Chain of custody notes\n\nOriginal uploads are stored unchanged for the life of the local application data directory; SHA-256 is recorded at ingestion. A local append-only JSONL event file records the analysis event. This prototype is not a certified evidence preservation system.\n"
+}
